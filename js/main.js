@@ -14,4 +14,4 @@ function checkTime(i) {
   return i;
 }
 
-<body onload="startTime()">
+
