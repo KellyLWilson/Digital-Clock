@@ -7,5 +7,5 @@ var d = new Date(),
     days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 
 
-days[d.getDay()]+' '+months[d.getMonth()]+' '+d.getDate()+' '+d.getFullYear()+' '+hours+':'+minutes+ampm;
+return days[d.getDay()]+' '+months[d.getMonth()]+' '+d.getDate()+' '+d.getFullYear()+' '+hours+':'+minutes+ampm;
 }
