@@ -1,3 +1,7 @@
+main {
+  backgound-color: skyblue;
+}
+
 body, h1,  {
   font: courier;
   font-color: brown;
