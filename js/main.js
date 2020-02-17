@@ -1,7 +1,3 @@
-
-<script type="text/javascript">
-<!--
-
 function updateClock ( )
 {
   var currentTime = new Date ( );
