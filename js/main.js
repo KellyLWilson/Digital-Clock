@@ -1,24 +1,11 @@
-function updateClock ( )
-{
-  var currentTime = new Date ( );
+function days {
+var d = new Date(),
+    minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
+    hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),
+    ampm = d.getHours() >= 12 ? 'pm' : 'am',
+    months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+    days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 
-  var currentHours = currentTime.getHours ( );
-  var currentMinutes = currentTime.getMinutes ( );
-  var currentSeconds = currentTime.getSeconds ( );
 
-
-  // Choose either "AM" or "PM" as appropriate
-  var timeOfDay = ( currentHours < 12 ) ? "AM" : "PM";
-
-  // Convert the hours component to 12-hour format if needed
-  currentHours = ( currentHours > 12 ) ? currentHours - 12 : currentHours;
-
-  // Convert an hours component of "0" to "12"
-  currentHours = ( currentHours == 0 ) ? 12 : currentHours;
-
-  // Compose the string for display
-  var currentTimeString = currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + timeOfDay;
-
-  // Update the time display
-  document.getElementById("clock").firstChild.nodeValue = currentTimeString;
+days[d.getDay()]+' '+months[d.getMonth()]+' '+d.getDate()+' '+d.getFullYear()+' '+hours+':'+minutes+ampm;
 }
