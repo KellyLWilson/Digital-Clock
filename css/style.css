@@ -9,8 +9,9 @@ body, h1,  {
 }
 
 span{ 
-         color: skyblue; 
+         color: brown;
+         background-color:powderblue         
          font: courier; 
          font-weight: bold; 
-         font-size: 26px; 
+         font-size: 66px; 
          }  
