@@ -1,9 +1,9 @@
 main {
-  backgound-color: yellow;
+  backgound-color: blue;
 }
 
 body {
-  backgound-color: yellow;
+  backgound-color: blue;
 }
 
 /* body, h1,  { */
@@ -13,8 +13,7 @@ body {
 
 
 span{ 
-         color: coral;
-         background-color:powderblue         
+         color: coral;         
          font: courier; 
          font-weight: bold; 
          font-size: 63x; 
