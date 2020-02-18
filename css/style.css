@@ -12,7 +12,7 @@ h1, h1 span {
    color: navy; 
    font: bold 30px/55px Sans-Serif; 
    letter-spacing: -1px;  
-   background: yellow; /* fallback color */
+   background: yellow, position:absolute; /* fallback color */
    background: yellow;
    padding: 10px; 
 }
