@@ -8,6 +8,7 @@ body {
 
   
 h1, h1 span { 
+   text-align: center;
    color: coral; 
    font: bold 30px/55px Sans-Serif; 
    letter-spacing: -1px;  
