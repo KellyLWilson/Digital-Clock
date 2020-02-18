@@ -7,3 +7,10 @@ body, h1,  {
   font-color: brown;
   background-color: skyblue;
 }
+
+span{ 
+         color: skyblue; 
+         font: courier; 
+         font-weight: bold; 
+         font-size: 26px; 
+         }  
