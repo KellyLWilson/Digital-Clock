@@ -2,11 +2,11 @@ body {
   backgound-color: skyblue;
 }
 
-body, h1,  {
-  font: courier;
-  font-color: brown;
-  background-color: skyblue;
-}
+/* body, h1,  { */
+/*  font: courier; */
+/*  font-color: brown; */
+/*  background-color: skyblue; */
+
 
 span{ 
          color: coral;
