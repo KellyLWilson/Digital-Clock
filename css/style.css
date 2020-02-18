@@ -12,9 +12,13 @@ body {
 /*  background-color: skyblue; */
 
 
-span{ 
-         color: coral;         
-         font: courier; 
-         font-weight: bold; 
-         font-size: 65x; 
-         }  
+
+
+h1 span { 
+   color: coral; 
+   font: bold 24px/45px Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
