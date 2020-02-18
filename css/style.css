@@ -6,10 +6,8 @@ body {
 /*  font-color: brown; */
 /*  background-color: skyblue; */
 
-
-
-
-h1 span { 
+  
+h1, h1 span { 
    color: coral; 
    font: bold 30px/55px Sans-Serif; 
    letter-spacing: -1px;  
