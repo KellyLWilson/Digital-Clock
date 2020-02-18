@@ -1,10 +1,5 @@
-main {
-  backgound-color: blue;
-}
-
 body {
-  backgound-color: blue;
-}
+  background-color: #85a0be;}
 
 /* body, h1,  { */
 /*  font: courier; */
@@ -16,7 +11,7 @@ body {
 
 h1 span { 
    color: coral; 
-   font: bold 24px/45px Sans-Serif; 
+   font: bold 30px/55px Sans-Serif; 
    letter-spacing: -1px;  
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
