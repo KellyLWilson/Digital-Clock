@@ -9,10 +9,10 @@ body {
   
 h1, h1 span { 
    text-align: center;
-   color: coral; 
+   color: navy; 
    font: bold 30px/55px Sans-Serif; 
    letter-spacing: -1px;  
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
+   background: yellow; /* fallback color */
+   background: yellow;
    padding: 10px; 
 }
